@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans' sans-serif;
+}
+header{
+    width: 100%;
+    background-color:darkred;
+    display: flex;
+    
+
+}
+.header_logo{
+    text-transform: uppercase;
+    color:white;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 12%;
+}
+
+nav{
+    margin-top: 100px;
+    margin-left: 50%;
+}
+.topnav a{
+    color:white;
+    text-align: center;
+    padding: 25px 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topnav a:hover{
+    border-bottom: 3px solid white;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* position: absolute; */
+}
+
+main .main_header{
+    display:inline-block;
+    /* width: 100%;
+    margin: 0 auto;
+    padding-right: 200%; */
+   
+}
+
+main .main_about1{
+    display: flex;
+    padding-left:  50px;
+    flex-direction: row;
+
+}
+main .main_welcome{
+    max-width: 100%;
+    display: flex;
+    margin: 70px;
+    
+}
+
+
+main .main_welcome h1{
+    display: inline-block;
+    color: darkred;
+    padding: 50px;
+    margin: 0 auto;
+    font-size: 44px;
+    font-weight: 500;
+    text-align: center;
+   
+}
+
+main .main_image{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 55px;
+    padding-top: 50px;   
+    
+}
+
+
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: darkred;
+}
+
+main .main_about{
+    display: flex;
+    padding: 0 50px 0 50px;
+
+}
+
+.about_right{
+    margin-left: 125px;
+}
+ 
+.about_right h1{
+    display: inline-block;
+    border-bottom: 3px solid white;
+    color:white;
+    padding-bottom: 20px;
+}
+
+.about_right p{
+    margin: 30px 0 50px 0;
+    color: white;
+}
+
+main .main_img2{
+    min-width: 100%;
+}
+
+main .mw{
+    min-width: 100%;
+}
+
+.main_team{
+    background-color: white;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color:darkred;
+}
+
+.main_team h1{
+    font-size: 44px;
+    padding-bottom: 30px;
+    
+}
+
+.line{
+    width: 100px;
+    height: 3px;
+    background: darkred;
+    position: absolute;
+    left: 45.5%;
+    margin-bottom: 90px;
+}
+
+.photo{
+    background: grey;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 50px auto;
+}
+
+.team_cards{
+    display: flex;
+}
+
+.card{
+    margin: 0 20px;
+}
+
+.name{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.about_position{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.services_cards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 40% 40%;
+    grid-column-gap: 3px;
+    color: white;
+}
+.main_services h1{
+    text-align: center;
+    color: white;
+    padding: 50px 0 20px 0;
+}
+
+.services_card h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+ *{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+ }
+footer{
+    width: 100%;
+    background: darkred;
+    padding: 70px 0;
+    color: white;
+    /* position: absolute;
+    bottom: -1700px; */
+}
+footer h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    background-color: black;
+}
+
+footer h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+
+
+}
+.footer-container{
+    max-width:  1170px;
+    background-color: darkred;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 15%;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-container .about_us a{
+    background: black;
+    color:white;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid darkred;
+    display: inline-block;
+}
+
+.images{
+    margin-top: 10px;
+}
+
+.tweets p{
+    margin-top: 20px;
+}
+
+.footer-container .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 30px 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+
+}
+
+.footer-container .social-links a:hover{
+    color: gray;
+    background-color: #ffffff;
+}
+ 
+
+
+@media screen and (max-width: 1200px){
+    nav{
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 1105px){
+    nav{
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 1084px){
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float:right;
+        margin-top: -17px;
+        display: block;
+        color: white;
+        font-size: 25px;
+    }
+    nav{
+        width: 100%;
+
+    }
+    .topnav.responsive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+header .topnav.responsive{
+    height: 400px;
+}
+
+.topnav.responsive a.icon{
+    position: absolute;
+    top: -50px;
+    right: -200px;
+}
+
+.topnav.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+main .main_about1{
+    flex-direction: column;
+}
+
+.main_img{
+    width: 489px;
+    height: 400px;
+}
+
+main .main_image{
+    max-width: 100%;
+  
+} 
+ 
+main .mw{
+    max-width: 100%;
+} 
+
+main .main_about{
+    flex-direction: column;
+} 
+main .main_right{
+    display: none;  
+} 
+
+.main_image{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 50px 0 50px; */
+    align-items: right;
+    text-align: left;
+}
+
+
+
+.about_right{
+    text-align: center;
+    margin-left: 0;
+}
+
+.team_cards{
+    flex-direction: column;
+}
+
+.services_cards{
+    grid-template-columns: auto;
+}
+
+
+main .main_welcome h1{
+    text-align: center;
+     margin-left: 0;
+ }
+
+
+ .main_about1 .main_right h1{
+    width: 25%;
+    flex-direction: column-reverse;
+
+
+ }
+
+ div .txt {
+    width: 40%;
+    margin: 20px;
+   }
+  }
+
+
+ 
+
+@media screen and (max-width: 1084px){
+    .footer-container{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+  
+}
+
+@media screen and (max-width: 524px){
+    .footer-container{
+        width: 100%;
+    }
+}
